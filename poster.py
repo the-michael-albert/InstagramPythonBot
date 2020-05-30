@@ -21,3 +21,9 @@ else:
     time.sleep(5)
     bot.upload_photo(photopath, 
                     caption ="#AllLivesMatter #EveryVoiceCounts") 
+
+
+# create last run time
+f = open("lastdate.txt", "w")
+f.write(str(date.year) + "/" + str(date.month) + "/" + str(date.day) + " - " + str(date.hour) + ":" + str(date.minute) + ":" + str(date.second))
+f.close()
