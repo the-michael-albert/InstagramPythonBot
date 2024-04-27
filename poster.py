@@ -20,7 +20,7 @@ else:
     os.system('python postcreator.py')
     time.sleep(5)
     bot.upload_photo(photopath, 
-                    caption ="#AllLivesMatter #EveryVoiceCounts") 
+                    caption ="#EveryVoiceCounts") 
 
 
 # create last run time
